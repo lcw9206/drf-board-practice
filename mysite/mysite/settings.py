@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'drf-board.apps.BoardConfig',
+    'board.apps.BoardConfig'
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -82,7 +82,7 @@ DATABASES = {
         'USER': 'lcw9206',
         'PASSWORD': '',
         'HOST': 'localhost',
-        'PORT': '5432',
+        'PORT': '',
     }
 }
 
