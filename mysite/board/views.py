@@ -1,6 +1,6 @@
 from rest_framework import viewsets
 from board.models import Posting, Comment
-from board.serializer import PostingSerializer, CommentSerializer
+from board.serializer import PostingSerializer, CommentSerializer, PostingDetailSerializer
 from django.http import HttpResponse, JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 
